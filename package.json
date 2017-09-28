@@ -1,0 +1,33 @@
+{
+  "name": "anotherWiki",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon -e html,js,css ./index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabrieldefazio/anotherWiki.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gabrieldefazio/anotherWiki/issues"
+  },
+  "homepage": "https://github.com/gabrieldefazio/anotherWiki#readme",
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "body-parser": "^1.18.2",
+    "express": "^4.15.5",
+    "markdown": "^0.5.0",
+    "marked": "^0.3.6",
+    "morgan": "^1.9.0",
+    "nunjucks": "^3.0.1",
+    "pg": "^6.4.1",
+    "pg-hstore": "^2.3.2",
+    "sequelize": "^4.11.3"
+  }
+}
